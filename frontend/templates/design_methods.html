@@ -1,0 +1,325 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Design Methods{% endblock %}
+{% block stylesheets %}
+    <style>
+            .homepage .list-features i {
+             color: #F1FFF7;
+              margin-right: 10px;
+              width: 40px;
+              height: 40px;
+               top: 10px;
+            border-radius: 20px;
+              background: #20AA76;
+                display: inline-block;
+                text-align: center;
+                font-size: 24px;
+                font-size: 2.4rem;
+            }
+            .list-features i {
+             color: #F1FFF7;
+                margin-right: 10px;
+                 width: 40px;
+                height: 40px;
+                 border-radius: 25px;
+                 background: #20AA76;
+                 line-height: 1.68em;
+                display: inline-block;
+                text-align: center;
+                }
+            .icon {
+                display: inline-block;
+                font: normal normal normal 14px/1 FontAwesome;
+                 font-size: inherit;
+                text-rendering: auto;
+                -webkit-font-smoothing: antialiased;
+                 -moz-osx-font-smoothing: grayscale;
+                }
+            user agent stylesheet
+            i, cite, em, var, address, dfn {
+                 font-style: italic;
+                }
+            Inherited from dt
+            .list-features dt {
+              font-size: 24px;
+                font-size: 2.4rem;
+                 border-top: 1px solid #CFE3DC;
+                 padding-top: 25px;
+                }
+                dl dt {
+                font-family: "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+                font-weight: 400;
+                }
+        .btn-sq-lg {
+            width: 100px !important;
+            height: 100px !important;
+        }
+
+        .btn-sq {
+            width: 50px !important;
+            height: 50px !important;
+            font-size: 10px;
+        }
+
+        .btn-sq-sm {
+            width: 25px !important;
+            height: 25px !important;
+            font-size: 10px;
+        }
+
+        .btn-sq-xs {
+            width: 25px !important;
+            height: 25px !important;
+            padding: 2px;
+        }
+
+    </style>
+{% endblock %}
+{% block content %}
+
+<div class="container">
+
+        <div class="row">
+            <div class=for-buttons">
+      <p>
+
+          <a href="#" class="btn btn-sq btn-info">1</a>
+          <a href="#" class="btn btn-primary">2</a>
+          <a href="#" class="btn btn-primary">3</a>
+          <a href="#" class="btn btn-primary">4</a>
+          <a href="#" class="btn btn-primary">5</a>
+          <a href="#" class="btn btn-primary">6</a>
+          <a href="#" class="btn btn-sq btn-info">1</a>
+          <a href="#" class="btn btn-primary">2</a>
+          <a href="#" class="btn btn-primary">3</a>
+          <a href="#" class="btn btn-primary">4</a>
+          <a href="#" class="btn btn-primary">5</a>
+          <a href="#" class="btn btn-sq btn-info">1</a>
+          <a href="#" class="btn btn-primary">2</a>
+          <a href="#" class="btn btn-primary">3</a>
+          <a href="#" class="btn btn-primary">4</a>
+          <a href="#" class="btn btn-primary">5</a>
+          <a href="#" class="btn btn-sq btn-info">1</a>
+          <a href="#" class="btn btn-primary">2</a>
+          <a href="#" class="btn btn-primary">3</a>
+          <a href="#" class="btn btn-primary">4</a>
+          <a href="#" class="btn btn-primary">5</a>
+
+
+                <a href="#" class="btn btn-sq btn-info">
+                    <i class="fa fa-5x"></i><br/>
+                    Demo Primary <br>Button
+                </a>
+
+
+            </p>
+                </div>
+            <div class="col-md-3">
+                <p class="lead">Indeate</p>
+                <div class="along-side">
+                   <dl class="list-features">
+          <dt><i class="icon icon-bolt inview"></i> Ridiculously fast.</dt>
+
+
+          <dt><i class="icon icon-lock inview"></i> Reassuringly secure.</dt>
+
+
+          <dt><i class="icon icon-dashboard inview"></i> Exceedingly scalable.</dt>
+                       <dt><i class="icon icon-dashboard inview"></i> Exceedingly scalable.</dt>
+                       <dt><i class="icon icon-dashboard inview"></i> Exceedingly scalable.</dt>
+
+
+
+        </dl>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+
+                <div class="row carousel-holder">
+
+                    <div class="col-md-12">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item">
+                                    <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                                </div>
+                                <div class="item active">
+                                    <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="http://placehold.it/320x150" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">$24.99</h4>
+                                <h4><a href="#">First Product</a>
+                                </h4>
+                                <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="http://placehold.it/320x150" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">$64.99</h4>
+                                <h4><a href="#">Second Product</a>
+                                </h4>
+                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">12 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="http://placehold.it/320x150" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">$74.99</h4>
+                                <h4><a href="#">Third Product</a>
+                                </h4>
+                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">31 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="http://placehold.it/320x150" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">$84.99</h4>
+                                <h4><a href="#">Fourth Product</a>
+                                </h4>
+                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">6 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="http://placehold.it/320x150" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">$94.99</h4>
+                                <h4><a href="#">Fifth Product</a>
+                                </h4>
+                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">18 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <h4><a href="#">Like this template?</a>
+                        </h4>
+                        <p>If you like this template, then check out <a target="_blank" href="http://maxoffsky.com/code-blog/laravel-shop-tutorial-1-building-a-review-system/">this tutorial</a> on how to build a working review system for your online store!</p>
+                        <a class="btn btn-primary" target="_blank" href="http://maxoffsky.com/code-blog/laravel-shop-tutorial-1-building-a-review-system/">View Tutorial</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+   <!-- <div class="container">
+
+        <div class="row">
+            <div class="col-md-12">
+                <p>Text here for each button click. </p>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <p>
+                <a href="#" class="btn btn-sq btn-info">
+                    <i class="fa fa-5x"></i><br/>
+                    Demo Primary <br>Button
+                </a>
+
+
+            </p>
+
+
+        </div>
+
+    </div>
+
+
+    </div>-->
+
+{% endblock %}
